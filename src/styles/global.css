@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  --background-color: #0d0d0d;
+  --color-text: #fff;
+  --color-paragraph: #8b8b8c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-apresentacao {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: #fff;
+}
+
+.img-apresentacao {
+  width: 100%;
+  height: 70vh;
+  opacity: 0.4;
+}
+
+.img-logo {
+  width: 15%;
+  height: auto;
+  margin: 2% 6%;
+}
+.container-apresentacao div {
+  padding: 0 6%;
+}
+
+.container-apresentacao div h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.container-apresentacao div p {
+  font-size: 20px;
+  color: #8b8b8c;
+  margin: 1% 0;
+}
+
+/* formulario de cadastro */
+
+.container-cadastro {
+  width: 90%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5%;
+}
+
+.container-cadastro form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-form {
+  width: 99, 9%;
+  height: 2.5rem;
+  outline: none;
+  padding-left: 5px;
+  border: 1px solid #8b8b8c;
+  border-radius: 5px;
+  margin: 2% 0;
+  transition: 0.4s;
+  font-size: 14px;
+}
+
+.input-form:focus {
+  border: 1px solid #0d0d0d;
+  box-shadow: 0px 0px 10px #525252;
+}
+
+.input-form:valid {
+  border: 2px solid green;
+}
+
+.container-cadastro form button {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  background-color: #8b8b8c;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.6s;
+  cursor: pointer;
+  margin: 2% 0;
+}
+
+.container-cadastro button:hover {
+  background-color: #525252;
+}
+
+.container-cadastro form p {
+  font-size: 14px;
+  margin: 5% 0;
+}
+
+.container-cadastro form p a {
+  color: red;
+  text-decoration: none;
+}
